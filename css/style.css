@@ -1,0 +1,496 @@
+                    .body {
+                    font-family: "Roboto", sans-serif;
+                }
+                
+                .top-header,
+                .banner-content,
+                .banner-btn,
+                .menu,
+                .featured h2,
+                .banner-2-textarea,
+                .popular h2,
+                .icon p,
+                .trending h2,
+                .social h2,
+                .journal h2,
+                .footer .app-store-text,
+                .footer h6 {
+                    text-transform: uppercase;
+                }
+                
+                .top-header {
+                    font-size: 10px;
+                    background: #dce7de;
+                    padding: 15px 0;
+                }
+                
+                .top-header p {
+                    margin: 5px 15px;
+                }
+                
+                header {
+                    margin: 20px 0;
+                    background: rgb(251, 253, 252);
+                    padding: 15px 0;
+                }
+                
+                header .menu a {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                header .menu p {
+                    display: block;
+                    font-weight: 500;
+                    margin: auto 15px;
+                    font-size: 12px;
+                }
+                
+                header .menu p:hover {
+                    color: #f86561;
+                }
+                
+                header .icon i {
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 25px;
+                }
+                
+                header .icon i:hover {
+                    color: #f86561;
+                }
+                
+                header .cart-data {
+                    position: absolute;
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 15px;
+                    background-color: red;
+                    color: rgb(255, 255, 255);
+                    margin-top: -7px;
+                    margin-left: -12px;
+                    text-align: center;
+                    font-size: 10px;
+                }
+                
+                .banner {
+                    color: black;
+                    background: url(../img/bg-1.jpg);
+                }
+                
+                .banner .banner-content {
+                    text-align: center;
+                }
+                
+                .banner .banner-content h1 {
+                    font-size: 50px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+                
+                .banner .banner-content span {
+                    font-size: 12px;
+                }
+                
+                .banner .banner-btn {
+                    font-size: 14px;
+                    color: white;
+                    background: #f86561;
+                    border: none;
+                    border-radius: 3px;
+                    padding: 20px 25px;
+                    line-height: 0.8;
+                    min-width: auto;
+                    font-weight: 500;
+                }
+                
+                .banner .banner-btn:hover {
+                    background: white;
+                    color: blue;
+                }
+                
+                .featured {
+                    margin: 100px 0;
+                }
+                
+                .featured h2 {
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+                
+                .featured .img-grid {
+                    position: relative;
+                }
+                
+                .featured .img-grid .shopping-item {
+                    position: absolute;
+                    bottom: 30%;
+                    width: 100%;
+                    visibility: hidden;
+                }
+                
+                .featured .img-grid .shopping-item a {
+                    text-decoration: none;
+                    margin: 0 5px;
+                }
+                
+                .featured .img-grid .shopping-item .div2 {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    background-color: white;
+                    color: black;
+                }
+                
+                .featured .img-grid .shopping-item .div2:hover {
+                    background: #f86561;
+                    color: white;
+                }
+                
+                .featured .img-grid .shopping-item .div2 i {
+                    margin: 0 auto;
+                }
+                
+                .featured .img-grid:hover .shopping-item {
+                    visibility: visible;
+                }
+                
+                .featured .img-grid .featured-text {
+                    margin-top: 20px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+                
+                .featured .img-grid .featured-text p {
+                    margin-bottom: 6px;
+                }
+                
+                .featured .img-grid .featured-text .star {
+                    color: red;
+                    margin-bottom: 6px;
+                }
+                
+                .banner-2 {
+                    background: #eae2d8;
+                    text-align: center;
+                    color: black;
+                }
+                
+                .banner-2 .banner-2-textarea h4 {
+                    margin: 40px 0;
+                }
+                
+                .popular {
+                    text-align: center;
+                    margin: 50px 0;
+                }
+                
+                .popular h2 {
+                    margin-bottom: 50px;
+                }
+                
+                .services .icon {
+                    padding: 20px;
+                    border: 1px solid red;
+                    text-align: center;
+                }
+                
+                .services .icon img {
+                    margin-bottom: 15px;
+                }
+                
+                .trending {
+                    margin: 50px 0;
+                }
+                
+                .journal {
+                    margin: 50px 0;
+                }
+                
+                .journal .journal-content {
+                    margin-top: 10px;
+                }
+                
+                .journal .journal-content a {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                .journal .journal-content a:hover {
+                    color: #f86561;
+                }
+                
+                .journal .journal-content p:hover {
+                    color: #f86561;
+                }
+                
+                .journal .journal-content .span-category {
+                    margin-right: 10px;
+                    padding-right: 20px;
+                    font-size: 12px;
+                }
+                
+                .journal .journal-content .span-category i {
+                    margin-right: 10px;
+                }
+                
+                .journal .journal-content .span-comment {
+                    font-size: 12px;
+                }
+                
+                .journal .journal-content .span-date {
+                    margin-left: 20px;
+                    font-size: 10px;
+                }
+                
+                .journal .journal-content .span-date::before {
+                    position: absolute;
+                    width: 10px;
+                    height: 5px;
+                    background: red;
+                    content: "";
+                    left: 0;
+                    margin-top: 10px;
+                    margin-left: 15px;
+                }
+                
+                .journal h2,
+                .social h2,
+                .trending h2 {
+                    margin-bottom: 60px;
+                    text-align: center;
+                }
+                
+                .social img,
+                .journal img,
+                .services .icon {
+                    border-radius: 5px;
+                }
+                
+                .social .social-grid {
+                    position: relative;
+                }
+                
+                .social .social-grid:hover .social-img,
+                .social .social-grid:hover .instagram-icon {
+                    opacity: 0.7;
+                }
+                
+                .social .social-grid:hover .instagram-icon {
+                    visibility: visible;
+                }
+                
+                .social .social-grid .instagram-icon {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    background: #f86561;
+                    color: white;
+                    visibility: hidden;
+                }
+                
+                .footer {
+                    margin-top: 50px;
+                    padding: 50px 0 10px 0;
+                    background: black;
+                    color: grey;
+                    height: 100%;
+                }
+                
+                .footer .button-area {
+                    margin-right: 5px;
+                }
+                
+                .footer .button-area .app-store-android {
+                    width: 100%;
+                    height: 60px;
+                    background: white;
+                    border-radius: 5px;
+                    color: black;
+                    border: none;
+                    display: block;
+                }
+                
+                .footer .button-area .app-store-android:hover {
+                    background: #f86561;
+                    color: white;
+                }
+                
+                .footer .button-area .app-store-android i {
+                    left: 0;
+                    margin-top: -7px;
+                    margin-left: 10%;
+                    position: absolute;
+                }
+                
+                .footer .button-area .app-store {
+                    width: 100%;
+                    height: 60px;
+                    background: white;
+                    color: #f86561;
+                    border-radius: 5px;
+                    border: none;
+                    display: block;
+                }
+                
+                .footer .button-area .app-store i {
+                    left: 0;
+                    margin-top: -7px;
+                    margin-left: 10%;
+                    position: absolute;
+                }
+                
+                .footer .button-area .app-store-text {
+                    position: absolute;
+                    margin: 10px auto;
+                    top: 0;
+                    left: 33%;
+                    font-size: 12px;
+                }
+                
+                .footer .social-icon-footer {
+                    margin-top: 30px;
+                }
+                
+                .footer .social-icon-footer .social-icons a {
+                    text-decoration: none;
+                    margin-right: 10px;
+                    margin-top: 15px;
+                    color: white;
+                }
+                
+                .footer .social-icon-footer .social-icons a:hover {
+                    color: #f86561;
+                }
+                
+                .footer .footer-text {
+                    border-top: 1px solid white;
+                    text-align: center;
+                    margin-top: 50px;
+                }
+                
+                .hide-mb {
+                    display: block;
+                }
+                
+                .show-mb {
+                    display: none;
+                }
+                
+                @media only screen and (max-width: 768px) {
+                    .featured {
+                        margin: 20px 0;
+                    }
+                    .featured .container h2 {
+                        margin: 20px;
+                    }
+                    .featured .container .col-md-4 {
+                        margin: 0 auto;
+                    }
+                    .featured .container .col-md-4 .img-grid .featured-text {
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .product {
+                        background: #ebe9e4;
+                    }
+                    .product .product-detail {
+                        overflow: hidden;
+                    }
+                    .product .product-detail .col-md-5,
+                    .product .product-detail .col-md-3 {
+                        margin-top: 15px;
+                    }
+                    .product .product-detail h2 {
+                        font-size: 20px;
+                    }
+                    .product .product-detail p,
+                    .product .product-detail i {
+                        font-size: 12px;
+                    }
+                    .product .product-detail img {
+                        margin: 5px;
+                    }
+                    .product .product-detail .star i {
+                        font-size: 10px;
+                        color: green;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        margin-right: 1px;
+                    }
+                    .product .product-detail .sale {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        -webkit-transform: rotate(-40deg);
+                        transform: rotate(-40deg);
+                        margin-left: -40px;
+                        margin-top: 30px;
+                        background: #160c0c;
+                        color: white;
+                        padding: 5px 100px;
+                    }
+                    .product .product-detail .discount {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 75px;
+                        width: 75px;
+                        margin-right: 25px;
+                        margin-top: 20px;
+                        border-radius: 45px;
+                        background: red;
+                        color: white;
+                    }
+                    .product .product-detail .product-button {
+                        left: 0;
+                    }
+                    .product .product-detail .product-button button {
+                        color: white;
+                        width: 100%;
+                        border: none;
+                        margin: auto 5px;
+                        padding: 10px 0;
+                        border-radius: 5px;
+                    }
+                    .product .product-detail .product-button #button1 {
+                        background: skyblue;
+                    }
+                    .product .product-detail .product-button #button2 {
+                        background-color: orange;
+                    }
+                    .product .product-detail .product-button #button1:hover,
+                    .product .product-detail .product-button #button2:hover {
+                        background: green;
+                        color: white;
+                    }
+                    .product .product-detail .rating p {
+                        margin-bottom: 0;
+                    }
+                    .product .product-detail .span-bar {
+                        margin: 10px auto;
+                        color: black;
+                    }
+                    .product .product-detail #promotion {
+                        background: red;
+                        color: white;
+                        padding: 5px 15px;
+                    }
+                    .product .product-detail .div1 {
+                        padding-bottom: 10px;
+                    }
+                    .product .product-detail .div1 p {
+                        margin: 0;
+                    }
+                    /*# sourceMappingURL=style.css.map */
